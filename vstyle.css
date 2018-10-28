@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+::selection{
+	background-color: #13171c;
+	color: #efefef;
+}
+/*
+::-webkit-scrollbar{
+	width: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #2f1b56;
+}
+::-webkit-scrollbar-track{
+	background-color: #fff;
+}*/
+.complete{
+	width: 100vw;
+}
+
+.navb{
+	width: 100vw;
+	height: 20vh;
+	padding-top: 5vh;
+}
+.grid{
+	max-width: 100%;
+}
+.grid_1{
+	display: inline-block;
+	width: 10vw;
+}
+.grid_2{
+	display: inline-block;
+	width: 20vw;
+}
+.grid_3{
+	display: inline-block;
+	width: 30vw;
+}
+.grid_4{
+	display: inline-block;
+	width: 40vw;
+}
+.grid_5{
+	display: inline-block;
+	width: 50vw;
+}
+.grid_6{
+	display: inline-block;
+	width: 60vw;
+}
+.grid_7{
+	display: inline-block;
+	width: 70vw;
+}
+.grid_8{
+	display: inline-block;
+	width: 80vw;
+}
+.grid_9{
+	display: inline-block;
+	width: 90vw;
+}
+.grid_10{
+	display: inline-block;
+	width: 100vw;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.relative{
+	position: relative;
+}
+a, a:link, a:visited, a:active, a:hover{
+	color: #13171c;
+	text-decoration: none;
+}
+div{
+	transition: 300ms;
+}
+ul{
+	list-style-type: none;
+}
+.bg{
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+	width: 100vw;
+}
+.text_center{
+	text-align: center;
+}
+.text_right{
+	text-align: right;
+}
+.text_left{
+	text-align: left;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.bgimg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.line{
+	height: 3px;
+	width: 100px;
+	background-color: #13171c;
+
+}
+.bars{
+	cursor: pointer;
+	position: absolute;
+}
+.bar{
+	width: 40px;
+	height: 3px;
+	background-color: #13171c;
+	margin-bottom: 1vh;
+	transition: 300ms;
+}
+.bar1_ac{
+	transform: rotate(45deg);
+}
+.bar2_ac{
+	opacity: 0;
+}
+.bar3_ac{
+	margin-top: -3vh;
+	transform: rotate(-45deg);
+}
+.gradient_right{
+	background-image: linear-gradient(to right, #13171c, #efefef);
+}
+.gradient_left{
+	background-image: linear-gradient(to left, #13171c, #efefef);
+}
+.gradient_top{
+	background-image: linear-gradient(to top, #13171c, #efefef);
+}
+.gradient_bottom{
+	background-image: linear-gradient(to bottom, #13171c, #efefef);
+}

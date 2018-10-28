@@ -1,0 +1,383 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+@font-face {
+    src: url('fonts/PlayfairDisplay-Bold.ttf');
+    font-family: 'playfair';
+}
+@font-face {
+    src: url('fonts/Mark Simonson - Proxima Nova Regular.otf');
+    font-family: 'proxi';
+}
+@font-face {
+  src: url('fonts/ZefaniStencil(uppercase)-Regular.otf');
+  font-family: 'zefani';
+}
+@font-face {
+  src: url('fonts/Quicksand-Regular.otf');
+  font-family: 'quick'
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ff4364;
+
+}
+.land{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/b2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tint_land{
+  position: absolute;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #323232;
+  opacity: 0.6;
+}
+
+.ham{
+  position: absolute;
+  z-index: 10;
+  height: 4.6vw;
+  margin-left: 5vw;
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px 20px 0px 20px;
+  cursor: pointer;
+}
+.logo{
+  position: absolute;
+  z-index: 10;
+  display: inline-block;
+  height: 5vw;
+  width: 5vw;
+  background-color: #2b2b33;
+}
+.bars{
+  display: inline-block;
+  padding-left: 10px;
+}
+.bar{
+  height: 2px;
+  width: 25px;
+  margin-top: 3.8px;
+  border-radius: 5px;
+  background-color: #2b2b33;
+}
+.bar3{
+
+  width: 20px;
+}
+.mh{
+  display: inline-block;
+  font-family: 'Paytone One';
+}
+.bnow{
+  position: relative;
+  z-index: 10;
+  height: 4.6vw;
+  color: #fff;
+  background-color: #ff4364;
+  display: inline-block;
+  float: right;
+  padding: 5px 20px 0px 20px;
+  font-family: 'Paytone One';
+  cursor: pointer;
+}
+.lh{
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  color: #fff;
+  text-align: center;
+  padding-top: 35vh;
+  font-size: 10vh;
+  font-family: 'zefani';
+}
+.lh p{
+  font-family: 'proxi';
+  font-size: 20px;
+
+}
+.vl{
+  margin-top: -13vh;
+  color: #fff;
+  font-family: 'proxi';
+  position: relative;
+  z-index: 2;
+  font-size: 10px;
+  width: 10vw;
+  cursor: pointer;
+}
+.line{
+  background-image: linear-gradient(to right, #fff 50%, #7b7b7b 50%);
+  width: 100px;
+  height: 2px;
+  margin: auto;
+  margin-top: 11vh;
+  transform: rotate(90deg);
+}
+.disc_h{
+  font-family: 'Paytone One';
+  font-size: 40px;
+  text-align: center;
+  width: 45vw;
+  margin: auto;
+}
+
+.complete{
+  width: 100vw;
+  margin: auto;
+	max-width: 100%;
+  font-family: 'quick';
+}
+.grid{
+  width: 85vw;
+  margin: auto;
+  padding-left: 8vw;
+	max-width: 100%;
+  font-family: 'quick';
+}
+.grid_1{
+	display: inline-block;
+	width: 10vw;
+}
+.grid_15{
+	display: inline-block;
+	width: 15vw;
+}
+.grid_25{
+	display: inline-block;
+	width: 25vw;
+}
+.grid_2{
+	display: inline-block;
+	width: 20vw;
+}
+.grid_3{
+	display: inline-block;
+	width: 30vw;
+}
+.grid_4{
+	display: inline-block;
+	width: 40vw;
+}
+.grid_5{
+	display: inline-block;
+	width: 50vw;
+}
+.grid_6{
+	display: inline-block;
+	width: 60vw;
+}
+.grid_7{
+	display: inline-block;
+	width: 70vw;
+}
+.grid_8{
+	display: inline-block;
+	width: 80vw;
+}
+.grid_9{
+	display: inline-block;
+	width: 90vw;
+}
+.grid_10{
+	display: inline-block;
+	width: 100vw;
+}
+p{
+  text-align: center;
+}
+.gimg{
+  width: 15vw;
+  height: 10vh;
+  background-image: url('assets/phone.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.gi2{
+  background-image: url('assets/kitchen.png');
+
+}
+.gi3{
+  background-image: url('assets/food.png');
+
+}
+.gi4{
+  background-image: url('assets/sofa.png');
+
+}
+.gi5{
+  background-image: url('assets/garden.png');
+
+}
+.bg2{
+  padding-bottom: 20vh;
+}
+.slideshow{
+  height: 100vh;
+  background-image: url('assets/bgs.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.aftersl{
+  background-image: url('assets/b4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
+}
+.tint_af{
+  background-color: #323232;
+  height: inherit;
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+}/*
+.aftersl span{
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+  color: #fff;
+  margin: auto;
+  padding-top: 5vh;
+}*/
+.aftersl p{
+  padding-top: 5vh;
+  position: relative;
+  z-index: 1;
+  width: 30vw;
+  margin: auto;
+  font-size: 7.5vh;
+  color: #fff;
+  font-family: 'Paytone One';
+}
+.a_butt{
+  position: relative;
+  z-index: 1;
+  background-color: #2b2b33;
+  width: 19vh;
+  height: 5vh;
+  padding-top: 22px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 11px;
+  font-family: 'quick';
+}
+
+.extratext{
+  padding-top: 10vh;
+  width: 30vw;
+  margin-left: 0;
+  text-align: left;
+}
+.eh{
+  font-size: 10vh;
+
+}
+.card{
+  height: 70vh;
+  margin-top: 30vh;
+  margin-right: 7vw;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'quick';
+  letter-spacing: 2px;
+}
+.card1{
+  background-image: url('assets/gym.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.card2{
+  transform: translateY(-15vh);
+  background-image: url('assets/ff.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.card3{
+  transform: translateY(-30vh);
+  background-image: url('assets/comfy.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.card p{
+  position: absolute;
+  margin: 0;
+  padding-top: 30vh;
+  width: inherit;
+  text-align: center;
+}
+.loc{
+  max-width: 100%;
+  width: 100vw;
+  background-color: #2b2b33;
+  height: 80vh;
+}
+.map{
+  float: right;
+  height: 80vh;
+  width: 50vw;
+}
+.map_h{
+  color: #efefef;
+
+  height: 80vh;
+  padding-left: 2vw;
+  padding-right: 0vw;
+  width: 47.5vw;
+  float: left;
+}
+.map_p{
+  font-size: 10vh;
+  font-family: 'quick';
+  line-height: 70px;
+  padding-top: 20vh;
+}
+.line_s{
+    background-color: #efefef;
+    height: 1px;
+    width: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.map_h p{
+  font-family: 'quick';
+  width: 40vw;
+  text-align: left;
+}
+footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: #2b2b33;
+}
+.mp2{
+  font-size: 7vh;
+  padding-top: 10vh;
+  padding-left: 10vw;
+
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+    <script src="jq.js"></script>
+    <script src="func.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvg7TUvguAoD1FXDYnsHwvqZ7PkQsO-PM&callback=myMap"></script>
+
+  </head>
+  <body>
+    <section class="land">
+      <div class="tint_land"></div>
+      <div class="logo"></div>
+      <div class="ham">
+        <div class="mh"><p>Menu</p></div>
+        <div class="bars">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+          <div class="bar bar3"></div>
+        </div>
+
+      </div>
+      <div class="bnow">
+        <p>Book Now &nbsp;<span class="fa fa-calendar-o"></span></p>
+      </div>
+    <center>
+      <div class="lh">
+          &nbsp;The Roomware
+          <p>Luxury rooms in Dholakpur</p>
+      </div>
+    </center>
+    </section>
+    <section class="bg2">
+    <center>
+      <div class="vl">
+          DISCOVER
+          <div class="line"></div>
+      </div>
+
+    </center>
+    <br><br><br><br>
+    <div class="disc_h">
+      All inclusive student apartments and then some
+    </div>
+    <br><br><br><br><br>
+    <div class="grid">
+      <div class="grid_15">
+        <div class="gimg gi1"></div>
+        <p>Hi-Fi | Wi-Fi</p>
+      </div>
+      <div class="grid_15">
+        <div class="gimg gi2"></div>
+        <p>Awesome Service</p>
+      </div>
+      <div class="grid_15">
+        <div class="gimg gi3"></div>
+        <p>Food Food</p>
+      </div>
+      <div class="grid_15">
+        <div class="gimg gi4"></div>
+        <p>Feels af</p>
+      </div>
+      <div class="grid_15">
+        <div class="gimg gi5"></div>
+        <p>Garden me football</p>
+      </div>
+    </div>
+    </section>
+    <section class="slideshow">
+      <div class="map_p mp2">
+        Photo Tour
+      </div>
+      <div class="slider">
+        <div class="keys func_left">
+
+        </div>
+      </div>
+    </section>
+    <section class="aftersl">
+      <div class="tint_af"></div>
+<br><br><br>        <div class="after_h">
+          <center>
+          <!-- <span class="fa fa-camera-retro"></span> -->
+          <br>
+          <br>
+          <br>
+          <p>See our luxury apartments yourself</p>
+          <br><br>
+          <div class="a_li"></div>
+          <div class="a_butt">
+            TAKE THE TOUR
+          </div>
+          <center>
+        </div>
+    </section>
+    <section class="extras ">
+      <div class="extratext grid">
+        <div class="eh grid_4">
+          Add  to your experience
+        </div>
+        <br><br><br>
+        <div class="grid_4 ep">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        </div>
+      </div>
+      <div class="grid cards">
+        <div class="card card1 grid_2">
+          <p>Personal Training</p>
+        </div>
+        <div class="card card2 grid_2">
+          <p>Free Meal Pack</p>
+        </div>
+        <div class="card card3 grid_2">
+          <p>Sweet Suite</p>
+        </div>
+
+      </div>
+    </section>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <section class="loc">
+      <div class="">
+        <div class="map_h">
+          <div class="map_p">Location</div>
+          <div class="line_s"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="map" id="map"></div>
+      </div>
+    </section>
+
+    <!-- <section>
+      <div class="images">
+        <div class="complete">
+          <div class="grid_25 imgs img1"></div>
+          <div class="grid_25 imgs img2"></div>
+          <div class="grid_25 imgs img3"></div>
+          <div class="grid_25 imgs img4"></div>
+          <div class="grid_25 imgs img5"></div>
+          <div class="grid_25 imgs img6"></div>
+          <div class="grid_25 imgs img7"></div>
+          <div class="grid_25 imgs img8"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot">
+        &copy; All rights reserved
+      </div>
+    </footer>
+-->
+    <script>
+     function initMap() {
+       var uluru = {lat: 28.543, lng: 77.228};
+       var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 4,
+         center: uluru
+       });
+       var marker = new google.maps.Marker({
+         position: uluru,
+         map: map
+       });
+     }
+   </script>
+   <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvg7TUvguAoD1FXDYnsHwvqZ7PkQsO-PM&callback=initMap">
+   </script>
+  </body>
+</html>
